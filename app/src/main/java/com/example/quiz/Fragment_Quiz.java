@@ -67,8 +67,6 @@ public class Fragment_Quiz extends Fragment {
 
         getFromData();
 
-//        changeQuestionsAnswers(0);
-
         Log.i(TAG_QUEST, "Quest in onCreatView" + quest);
 
         nextButton.setOnClickListener(new View.OnClickListener() {
@@ -257,40 +255,5 @@ public class Fragment_Quiz extends Fragment {
             e.printStackTrace();
         }
         query.addValueEventListener(valueEventListener);
-//        mDataBase.orderByChild(QUESTION_KEY).addChildEventListener(new ChildEventListener() {
-//            @Override
-//            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-//                Question question = snapshot.getValue(Question.class);
-//                questionData.add(new Question(question.getTextQuestion(), question.getAnswers()));
-//                Log.i(TAG_QUESTION, "Questiondata in for" + questionData.toString());
-//            }
-//
-//            @Override
-//            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-//
-//            }
-//
-//            @Override
-//            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
-//
-//            }
-//
-//            @Override
-//            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-//
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError error) {
-//
-//            }
-//        });
-//        try {
-//            Thread.sleep(5000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//        Log.i(TAG_QUESTION, "Questiondata in return" + questionData.toString());
-//        return questionData;
     }
 }

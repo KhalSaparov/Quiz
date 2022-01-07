@@ -50,11 +50,6 @@ public class Fragment_Rating extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_rating, container, false);
         init(v);
-//        Handler handler = new Handler();
-//        handler.postDelayed(new Runnable() {
-//            public void run() {
-//            }
-//        }, 5000); //specify the number of milliseconds
         userAdapter = new UserAdapter(this.getActivity(), getSavedUser);
         mDataBase = FirebaseDatabase.getInstance().getReference().child(USER_KEY);
         userList.setAdapter(userAdapter);

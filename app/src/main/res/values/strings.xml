@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="play">Play</string>
+    <string name="rating">Rating</string>
+    <string name="exit">Exit</string>
+    <string name="a1">London</string>
+    <string name="a2">Ashgabat</string>
+    <string name="a3">Tashkent</string>
+    <string name="a4">Washington D.C.</string>
+    <string name="a5">Rome</string>
+    <string name="a6">Berlin</string>
+    <string name="a7">Abu Dhabi</string>
+    <string name="a8">Minsk</string>
+    <string name="a9">Moscow</string>
+    <string name="a10">Paris</string>
+    <string name="q1">The capital of Great Britain?</string>
+    <string name="q2">The capital of Turkmenistan?</string>
+    <string name="q3">The capital of Uzbekistan?</string>
+    <string name="q4">The capital of USA?</string>
+    <string name="q5">The capital of Italy?</string>
+    <string name="q6">The capital of Germany?</string>
+    <string name="q7">The capital of OAE?</string>
+    <string name="q8">The capital of Belarus?</string>
+    <string name="q9">The capital of Russian Federation?</string>
+    <string name="q10">The capital of France?</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="username">Username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/w_yellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/buttonBack"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/blue"
+                    android:text="@string/back">
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+                <Button
+                    android:id="@+id/buttonNext"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/blue"
+                    android:text="@string/next">
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="Some Text">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/knopka"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+            </Button>
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/knopka"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/knopka"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+            </Button>
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/knopka"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
